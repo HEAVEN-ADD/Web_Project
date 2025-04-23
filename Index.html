@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact-page">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="home">
+        <h1 class="home-text_1" id="home-text_title">Hey there. I'm Alex.</h1>
+        <h1 class="home-text_2" id="home-text_title">I'm a software developer</h1>
+        <p>I can help you build a product , feature or website Look through some of my work and <br>
+            experience! If you like what you see and have a project you need coded, <br>
+            don’t hesitate to contact me.</p> <br><br><br>
+            <div class="icons">
+                <a href="https://www.github.com"><img src="Github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com"><img src="Linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.Peace.com"><img src="Peace.png" alt="Peace"></a>
+                <a href="https://www.x.com"><img src="Twitter.png" alt="Twitter"></a>
+                <a href="https://www.moodles.com"><img src="M.png" alt="M"></a>
+            </div> <br><br><br> <br>
+                <button onclick="openModal()" id="drop" class="drop"><img src="Drop.png"></button>
+            <br><br><br>
+    </div>
+    <div class="overlay" id="overlay"></div>
+        <div class="Pop_up" id="Pop_up">
+            <div id="Close_button"><button onclick="closeModal()" id="Close">X</button></div>
+            <div class="pop_up_content">
+                <img src="popup-img.png" alt="img" style="width: 872px; height: 616px;">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>
+                        <h1>Keeping track of hundreds of <br> components</h1>
+                    </div>
+                    <div>
+                        <button class="show-project">See live</button>
+                        <button class="show-project">See Source</button>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <p class="list_box">Codekit</p>
+                    <p style="display: flex; background: transparent; border: 1px solid black; padding: 1.2%;background-color: #EBECF0;border-radius: 8px;">Github</p>
+                    <p style="display: flex; background: transparent; border: 1px solid black; padding: 1.2%;background-color: #EBECF0;border-radius: 8px;">JavaScript</p>
+                    <p style="display: flex; background: transparent; border: 1px solid black; padding: 1.2%;background-color: #EBECF0;border-radius: 8px;">Bootstrap</p>
+                    <p style="display: flex; background: transparent; border: 1px solid black; padding: 1.2%;background-color: #EBECF0;border-radius: 8px;">Terminal</p>
+                    <p style="display: flex; background: transparent; border: 1px solid black; padding: 1.2%;background-color: #EBECF0;border-radius: 8px;">Codepen</p>
+                </div>
+                <div class="Detail_text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it 1960s with the 
+                        releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                </div>
+            </div>
+        </div>
+    <br><br><br>
+    <section id="portfolio">
+    <div>
+        <div>
+            <h1 class="recent"> My Recent Works</h1>
+        </div>
+        <div class="container">
+            <div class=" row-box">
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row-box">
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="image-placeholder"></div>
+                    <div class="details_text">
+                        <h2>Multi-Post Stories </h2>
+                        <h2> Gain+Glory</h2>
+                        <ul class="list">
+                            <li>Ruby on Rails</li>
+                            <li> Javascript </li>
+                            <li> CSS</li>
+                            <li>HTML </li>
+                        </ul>
+                        <button class="show-project">See Project</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <div class="about-img">
+            <img src="Pic1.png" alt="left" class="pic-left">
+            <img src="Pic2.png" alt="right" class="pic-right">
+        </div>
+        <div class="Me">
+           <h1 id="About">About Me</h1>
+           <p class="contact"> I can help you build a product , feature or website Look through some of my work and<br> experience! If you like what you see and have a project you need coded,<br> 
+               don’t hesitate to contact me.</p>
+               <button class="show-project">Get my resume</button>
+        </div>
+       <div class="Skills">
+           <div class="lang">
+               <img src="Lang.png" alt="">
+               <h2>Languages</h2>
+               <div class="box_1_skills">
+                   <ul class="list1">
+                       <li>Javascript</li>
+                       <li> Ruby </li>
+                       <li> HTML</li>
+                       <li>CSS </li>
+                   </ul>
+               </div>
+           </div>
+           <div class="frame">
+            <div class="lang"> 
+               <img src="Frame.png" alt="">
+               <h2>Frameworks</h2>
+               <div class="box_1_skills" >
+                   <ul class="list1">
+                       <li>React.js</li>
+                       <li> Ruby on Rails </li>
+                       <li> RSpec</li>
+                       <li>Capybara </li>
+                   </ul>
+               </div>
+           </div>
+           </div>
+           <div class="skill">
+            <div class="lang1">
+               <img src="Skill.png" alt="">
+               <h2>Skills</h2>
+               <div class="box_1_skills" id="box_skills">
+                   <ul class="list1">
+                       <li>Data Management</li>
+                       <li> Version Control </li>
+                   </ul>
+               </div>
+               <div style="display: flex; gap: 8px; background: transparent;">
+                   <ul class="list1">
+                       <li> CLI</li>
+                       <li>Web Development </li>
+                       <li>API Desgin</li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+         </div>
+   </section>
+   <br><br><br>
+   <section id="Contact-page">
+    <div class="New">
+        <div><img src="Big-box.png" alt="box" class="box"></div>
+        <div class="project1">
+            <p class="Project">I'm always interested in hearing<br> about new projects, so if you'd<br> like to chat please get in touch.</p>
+        </div>
+        <div class="contact-form">
+            <form id="fields">
+                <input type="text" placeholder="  First Name" id="first" required>
+                <input type="text" placeholder="  Last Name" id="last" required> <br> <br>
+                <input type="email" placeholder="  Email address" id="email" required><br> <br>
+                <textarea name="description" placeholder="  Hey I'd like to connect to..." cols="30" rows="10" id="description"></textarea>
+                <br> <br>
+                <button class="show-project">Get in touch</button>
+            </form> 
+        </div>
+    </div>
+</section>
+<br><br><br>
+<hr>
+<br>
+<div class="done">
+    <div ><img src="Done.png" alt="done" class="png" style="margin-bottom: -40px;"></div>
+    <div style="display: flex;flex-direction: column;align-items: center;">
+        <footer>
+            <div class="icons" style="margin-bottom: -10px;">
+                <a href="https://www.github.com"><img src="Github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com"><img src="Linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.peace.com"><img src="Peace.png" alt="Peace"></a>
+                <a href="https://www.x.com"><img src="Twitter.png" alt="Twitter"></a>
+                <a href="https://www.Moodles.com"><img src="M.png" alt="M"></a>
+            </div>
+        </footer>
+    </div>
+    </div>
+</body>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside on mobile
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+        function openModal() {
+      document.getElementById("Pop_up").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    };
+    function closeModal() {
+      document.getElementById("Pop_up").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
+    }
+    </script>
+</html>
