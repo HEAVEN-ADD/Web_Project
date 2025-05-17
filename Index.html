@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="Javasc.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -263,29 +264,4 @@
     </div>
     </div>
 </body>
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu when clicking outside on mobile
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            }
-        });
-        function openModal() {
-      document.getElementById("Pop_up").style.display = "block";
-      document.getElementById("overlay").style.display = "block";
-    };
-    function closeModal() {
-      document.getElementById("Pop_up").style.display = "none";
-      document.getElementById("overlay").style.display = "none";
-    }
-    </script>
 </html>
