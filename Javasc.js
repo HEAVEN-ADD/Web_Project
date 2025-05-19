@@ -21,3 +21,13 @@ const hamburger = document.querySelector('.hamburger');
       document.getElementById("Pop_up").style.display = "none";
       document.getElementById("overlay").style.display = "none";
     }
+    function showAlertSeeLive() {
+      alert("A button have been clicked!");
+    }
+    
+    function showAlertGetMyResume(){
+      alert("Get My Resume button have been clicked!");
+    }
+    function showAlertGetInTouch(){
+      alert("Get In Touch button have been clicked!");
+    }
